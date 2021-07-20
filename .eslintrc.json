@@ -1,0 +1,15 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "jest":true,
+        "es2021": true
+    },
+    "extends": ["airbnb-base", "plugin:jest/recommended", "plugin:security/recommended"],
+    "plugins": ["jest", "security"],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+    }
+}

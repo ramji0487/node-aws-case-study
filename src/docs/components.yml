@@ -1,0 +1,58 @@
+components:
+  schemas:
+    Record:
+      type: object
+      description: DB fields
+      properties:
+        _id:
+          type: string
+          description: mongoId
+        key:
+          type: string
+        value:
+          type: string
+        createdAt:
+          type: string
+        counts:
+          type: array
+          items:
+            type: integer
+          
+    RecordResult:
+      type: object
+      properties:
+        key:
+          type: string
+        createdAt:
+          type: string
+        totalCount:
+          type: integer
+
+
+    Error:
+      type: object
+      properties:
+        code:
+          type: number
+        msg:
+          type: string
+
+  responses:
+    BadRequest:
+      description: BadRequest
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 400
+            msg: BadRequest
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 404
+            msg: Not found
