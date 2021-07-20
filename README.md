@@ -2,7 +2,7 @@
 
 project is running on:
 
-[![Deployed to Aws](https://nodeaws.basetrends.in/v1/docs)
+https://nodeaws.basetrends.in/v1/docs
 
 node-aws app , a test project RESTful APIs using Node.js, Express, and Mongoose.
 
