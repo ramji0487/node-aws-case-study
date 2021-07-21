@@ -2,7 +2,7 @@
 
 project is running on:
 
-https://nodeaws.basetrends.in/v1/docs
+[RESTApi Post URL as per case study](https://nodeaws.basetrends.in/v1/records)
 
 node-aws app , a test project RESTful APIs using Node.js, Express, and Mongoose.
 
@@ -13,7 +13,7 @@ It comes with features, such as request validation, unit and integration tests, 
 - **Validation**: request data validation using [Joi](https://github.com/hapijs/joi)
 - **NoSQL database**: [MongoDB](https://www.mongodb.com) object data modeling using [Mongoose](https://mongoosejs.com)
 - **API documentation**: with [swagger-jsdoc](https://github.com/Surnet/swagger-jsdoc) and [swagger-ui-express](https://github.com/scottie1984/swagger-ui-express)
-- **Dependency management**: with [Yarn](https://yarnpkg.com)
+- **Dependency management**: with [NPM](https://docs.npmjs.com/getting-started)
 - **Security**: set security HTTP headers using [helmet](https://helmetjs.github.io)
 - **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
 - **Compression**: gzip compression with [compression](https://github.com/expressjs/compression)
